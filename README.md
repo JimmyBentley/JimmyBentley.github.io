@@ -2,6 +2,15 @@
 Hi! 👋 I'm James Bentley, a Data Science student at the University of California San Diego with strong interests in Data Science & Machine Learning.
 Here are some projects I've completed so far!
 
+## [Large-Scale Data Analysis of Amazon Datasets](https://github.com/)
+- Developed a distributed computing infrastructure using Dask and AWS EC2, enabling parallel processing of
+Amazon reviews and products datasets across cluster of 3 worker nodes and 1 scheduler node.
+- Optimized data processing algorithms to handle 45 GB of data, achieving significant speedups in computation using
+distributed computing techniques to improve driving operational efficiency and cost savings.
+- Developed scalable data processing pipeline using Apache Spark on Kubernetes cluster with PySQL.
+- Trained decision tree regression model using word embedding with Word2Vec to extract meaningful features from
+text data and improve recommendation systems.
+
 ## [Shakepeare Sonnet Generation using LSTM](https://github.com/)
 ### Character Level and Word Level RNN
 - Trained recurrent neural network with long short-term memory on Shakespearean sonnets for 15 epochs, using
@@ -19,6 +28,13 @@ using Pandas.
 - Attained an F1-Score of .75.
 - Generated visualizations using Matplotlib that highlight differences in stock trading behavior between political parties, including variations in trading volume and frequency, as well as trends in the types of stocks traded.
 
+## [Amazon Video Games User Activity Analysis](https://github.com/jimmybentley/Amazon_Game_Reviews)
+• Normalized and stored 350 MB of review data into a relational database model, enabling optimized querying and
+analysis.
+• Conducted exploratory data analysis on Amazon Video Games user activity data, identifying key business metrics
+and trends using Python and SQL.
+• Visualized business metric data using Seaborn, providing actionable insights and driving informed business
+decisions based on user activity trends
 
 ## [Predicting Ratings of Reviews using Temporal and Sentiment Analysis](https://github.com/JimmyBentley/Prediction-Ratings/blob/main/Ratings_Predictions.pdf)
 - Developed a predictive model for rating reviews using Temporal and Sentiment Analysis on Google Local Reviews dataset, with a focus on spam detection
@@ -36,3 +52,11 @@ using Pandas.
 - Representing high dimensional data with dimensionality techniques, with Principal Component Analysis (PCA) for linear data and Laplacian Eigenmaps for non-linear data.
 - PCA performed on faces dataset which takes a top eigenvector as a detector of eyeglasses.
 - Laplacian Eigenmaps performed on k-nearest neighbors graph to find similarity between US universities.
+
+## [Natural Probabilistic Language Models](https://github.com/jimmybentley/Language-Models/tree/main)
+- Developed Uniform, Unigram, and N-Gram language models from scratch using probabilistic language modeling
+techniques and regular expressions.
+- Replicated key functions of Python’s NLTK library, utilizing tokenization techniques to preprocess the text for the
+language models.
+- Trained the model to generate text probabilistically based on a tokenized corpus, leveraging probabilistic models to
+generate text data.
