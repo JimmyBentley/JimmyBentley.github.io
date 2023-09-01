@@ -8,6 +8,7 @@ Here are some projects I've completed so far!
 Amazon reviews and products datasets across cluster of 3 worker nodes and 1 scheduler node.
 - Optimized data processing algorithms to handle 45 GB of data, achieving significant speedups in computation using
 distributed computing techniques to improve driving operational efficiency and cost savings.
+
 ### Apache Spark
 - Developed scalable data processing pipeline using Apache Spark on Kubernetes cluster with PySQL.
 - Trained decision tree regression model using word embedding with Word2Vec to extract meaningful features from
