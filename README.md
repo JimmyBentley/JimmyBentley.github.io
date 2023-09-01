@@ -6,6 +6,8 @@ Here are some projects I've completed so far!
 ### AWS EC2
 - Developed a distributed computing infrastructure using Dask and AWS EC2, enabling parallel processing of
 Amazon reviews and products datasets across cluster of 3 worker nodes and 1 scheduler node.
+- Conducted data cleaning, exploratory analysis, and data integrity checks on massive datasets, leveraging the
+distributed computing infrastructure to optimize processing time.
 - Optimized data processing algorithms to handle 45 GB of data, achieving significant speedups in computation using
 distributed computing techniques to improve driving operational efficiency and cost savings.
 
