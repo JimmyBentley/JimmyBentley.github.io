@@ -29,6 +29,7 @@ using Pandas.
 
 ## [Quadratic Discriminant Analysis](https://github.com/JimmyBentley/Predictive-ML-with-QDA/blob/main/QDA.ipynb)
 - Used probabilistic learning to make predictions on completely unlabeled dataset for class competition.
+- Tested on validation set for high sampling distribution accuracy to ensure high accuracy on test set.
 - Achieved top 10% of class for best accuracy.
 
 ## [Dimensionality Reduction Techniques](https://github.com/JimmyBentley/Dimensionality-Reduction-Techniques)
