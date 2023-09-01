@@ -2,7 +2,7 @@
 Hi! 👋 I'm James Bentley, a Data Science student at the University of California San Diego with strong interests in Data Science & Machine Learning.
 Here are some projects I've completed so far!
 
-## [Large-Scale Data Analysis of Amazon Datasets](https://github.com/)
+## [Large-Scale Data Analysis of Amazon Datasets](https://github.com/jimmybentley/Large-Scale-Amazon-Analysis/tree/main)
 ### AWS EC2
 - Developed a distributed computing infrastructure using Dask and AWS EC2, enabling parallel processing of
 Amazon reviews and products datasets across cluster of 3 worker nodes and 1 scheduler node.
