@@ -3,10 +3,12 @@ Hi! 👋 I'm James Bentley, a Data Science student at the University of Californ
 Here are some projects I've completed so far!
 
 ## [Large-Scale Data Analysis of Amazon Datasets](https://github.com/)
+### AWS EC2
 - Developed a distributed computing infrastructure using Dask and AWS EC2, enabling parallel processing of
 Amazon reviews and products datasets across cluster of 3 worker nodes and 1 scheduler node.
 - Optimized data processing algorithms to handle 45 GB of data, achieving significant speedups in computation using
 distributed computing techniques to improve driving operational efficiency and cost savings.
+### Apache Spark
 - Developed scalable data processing pipeline using Apache Spark on Kubernetes cluster with PySQL.
 - Trained decision tree regression model using word embedding with Word2Vec to extract meaningful features from
 text data and improve recommendation systems.
