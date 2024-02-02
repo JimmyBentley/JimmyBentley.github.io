@@ -4,24 +4,23 @@ Here are some projects I've completed so far!
 
 ## [Large-Scale Data Analysis of Amazon Datasets](https://github.com/jimmybentley/Large-Scale-Amazon-Analysis/tree/main)
 ### AWS EC2
-- Developed a distributed computing infrastructure using Dask and AWS EC2, enabling parallel processing of
-Amazon reviews and products datasets across cluster of 3 worker nodes and 1 scheduler node.
-- Conducted data cleaning, exploratory analysis, and data integrity checks on massive datasets, leveraging the
-distributed computing infrastructure to optimize processing time.
-- Optimized data processing algorithms to handle 45 GB of data, achieving significant speedups in computation using
-distributed computing techniques to improve driving operational efficiency and cost savings.
-
+- Developed distributed computing infrastructure using Dask and AWS EC2, enabling parallel processing of Amazon reviews and products data across multinode cluster.
+- Achieved 4x compute speedup and 4x costs saved using distributed computing techniques to optimize data processing and validation algorithms to handle 45 GB of data.
 ### Apache Spark
-- Developed scalable data processing pipeline using Apache Spark on Kubernetes cluster with PySQL.
-- Trained decision tree regression model using word embedding with Word2Vec to extract meaningful features from
-text data and improve recommendation systems.
+- Developed batch processing pipeline using Apache Spark PySQL on Kubernetes cluster.
+- Trained decision tree regression model using word embedding with Word2Vec to extract meaningful features from text data and improve recommendation systems.
 
-## [Shakepeare Sonnet Generation using LSTM](https://github.com/)
+## Shakepeare Sonnet Generation using LSTM
 ### Character Level and Word Level RNN
 - Trained recurrent neural network with long short-term memory on Shakespearean sonnets for 15 epochs, using cross-entropy loss for optimization.
 - Implemented preprocessing techniques such as word tokenization, preserving relevant punctuation and syllable counts.
 - Improved model by utilizing word embedding and incorporating syllable count as a feature. Lowered perplexity score and lowered loss in half with word embedding compared to character embedding.
 - Generated sonnets resembling Shakespearean style and structure across different temperature settings.
+
+## [Spotify Music Live Data Streaming](https://github.com/jimmybentley/Data-Engineering-Project)
+- Enabled real-time cloud data streaming of music listening history for efficient data transfer and processing.
+- Set up API integration for secure login with OAuth 2.0 protocols to protect sensitive API information with FastAPI.
+- Ensured data consistency and reliability for Kafka producer consumer pipeline with error handling and message flushing, storing sent data in secure S3 bucket.
 
 ## [Congress Member Stock Trading Behavior Analysis](https://github.com/JimmyBentley/Predicting-Buy-or-Sell-via-Stock-Trades-of-Congress-Members)
 - Analyzed congress member stock trades by scraping public data from congress.gov using Beautiful Soup, cleaned using Pandas.
@@ -34,11 +33,6 @@ text data and improve recommendation systems.
 - Conducted exploratory data analysis on Amazon Video Games user activity data, identifying key business metrics and trends using Python and SQL.
 - Visualized business metric data using Seaborn, providing actionable insights and driving informed business decisions based on user activity trends
 
-## [Statistical Analysis of Various Datasets](https://github.com/)
-- Performed hypothesis test, developed ridge regression and random forest models on a training set to predict Sales in Carseats dataset, evaluating model performance with RMSE on validation set.
-- Conducted logistic regression, LDA, QDA, and SVM on College data to predict if a college is private and compared model test errors with confusion matrix.
-- Conducted principal component analysis (PCA) on protein consumption data from European countries, interpreting first two principal components and identifying variable correlations using biplots.
-
 ## [Predicting Ratings of Reviews using Temporal and Sentiment Analysis](https://github.com/JimmyBentley/Prediction-Ratings/blob/main/Ratings_Predictions.pdf)
 - Developed a predictive model for rating reviews using Temporal and Sentiment Analysis on Google Local Reviews dataset, with a focus on spam detection
 - Extracted time features and conducted sentiment analysis through bag-of-words and TFIDF representations.
@@ -49,7 +43,7 @@ text data and improve recommendation systems.
 ## [Quadratic Discriminant Analysis](https://github.com/JimmyBentley/Predictive-ML-with-QDA/blob/main/QDA.ipynb)
 - Used probabilistic learning to make predictions on completely unlabeled dataset for class competition.
 - Tested on validation set for high sampling distribution accuracy to ensure high accuracy on test set.
-- Achieved top 10% of class for best accuracy.
+- Achieved top 10% of class for highest accuracy.
 
 ## [Dimensionality Reduction Techniques](https://github.com/JimmyBentley/Dimensionality-Reduction-Techniques)
 - Representing high dimensional data with dimensionality techniques, with Principal Component Analysis (PCA) for linear data and Laplacian Eigenmaps for non-linear data.
