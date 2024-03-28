@@ -2,8 +2,11 @@
 Hi! 👋 I'm James Bentley, a Data Science student at the University of California San Diego with strong interests in Data Science & Machine Learning.
 Here are some projects I've completed so far!
 
-## [Graph Batching Method for Integrated Circuits](https://spencerrazor.github.io/walking-gcn/)
+## [Graph Batching Method for Integrated Circuits](https://spencerrazor.github.io/walking-gcn/) 
+
 Chips are made up of hundreds of millions of transistors and millions of logic gates. Although the chip itself is small, a graph representation of the chip is large and produces problems during training due to RAM constraints. Our solution proposes a batching strategy that reduces RAM overhead while maintaining model accuracy on circuit congestion prediction. We use a benchmark batching method proposed by Cluster-GCN, improving upon problems with their random sampling method.
+
+[Report 📖](https://drive.google.com/file/d/1ouMfxmZm9oltgq5J7yZiXt1gXl7XL1-v/view?usp=sharing) [Code 💻](https://github.com/UCSD-Qualcomm-B07-Group-2/Biased-Batch-Learning-Strategy)
 
 ![image](VLSI_poster.png)
 
