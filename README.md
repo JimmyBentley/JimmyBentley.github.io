@@ -4,7 +4,7 @@ Here are some projects I've completed so far!
 
 ## Graph Batching Method for Integrated Circuits
 
-Chips are made up of hundreds of millions of transistors and millions of logic gates. Although the chip itself is small, a graph representation of the chip is large and produces problems during training due to RAM constraints. Our solution proposes a batching strategy that reduces RAM overhead while maintaining model accuracy on circuit congestion prediction. We use a benchmark batching method proposed by Cluster-GCN, improving upon problems with their random sampling method.
+Chips consist of hundreds of millions of logic gates and transistors. Although the chip itself is small in physical size, a graph representation of the chip is very large and produces problems during training due to RAM constraints. Our solution proposes a batching strategy that reduces RAM overhead while maintaining model accuracy on circuit congestion prediction. We use a benchmark batching method proposed by Cluster-GCN, improving upon problems with their random sampling method.
 
 [Website 🌐](https://spencerrazor.github.io/walking-gcn/) • [Report 📖](https://drive.google.com/file/d/1ouMfxmZm9oltgq5J7yZiXt1gXl7XL1-v/view?usp=sharing) • [Code 💻](https://github.com/UCSD-Qualcomm-B07-Group-2/Biased-Batch-Learning-Strategy)
 
