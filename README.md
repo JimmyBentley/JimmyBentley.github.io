@@ -10,6 +10,17 @@ Chips consist of hundreds of millions of logic gates and transistors. Although t
 
 ![image](VLSI_poster.png)
 
+## 3D Reconstruction from Images
+- Estimated surface depth map from external light sources with photometric stereo, applying horn integration
+technique to accurately predict meshes of human faces.
+- Incorporated 8-point algorithm to derive epipolar geometry and match image features, maintaining object point
+continuity and preserved perspective.
+
+## Voice AutoTuner and JPEG Compression
+- Created autotuner with discrete signal filtering methods to transform sampled audio to clean output signal.
+- Developed JPEG image compression algorithm with local and global compression, reducing file size by 90% while
+retaining image quality.
+
 ## [Large-Scale Data Analysis of Amazon Datasets](https://github.com/jimmybentley/Large-Scale-Amazon-Analysis/tree/main)
 ### AWS EC2
 - Developed distributed computing infrastructure using Dask and AWS EC2, enabling parallel processing of Amazon reviews and products data across multinode cluster.
