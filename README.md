@@ -41,17 +41,6 @@ retaining image quality.
 - Set up API integration for secure login with OAuth 2.0 protocols to protect sensitive API information with FastAPI.
 - Ensured data consistency and reliability for Kafka producer consumer pipeline with error handling and message flushing, storing sent data in secure S3 bucket.
 
-## [Congress Member Stock Trading Behavior Analysis](https://github.com/JimmyBentley/Predicting-Buy-or-Sell-via-Stock-Trades-of-Congress-Members)
-- Analyzed congress member stock trades by scraping public data from congress.gov using Beautiful Soup, cleaned using Pandas.
-- Created a binary classification model for predicting the buy or sell behavior of congress members based on features of their stock trades, utilizing Sklearn pipelines and K-Nearest Neighbors classification.
-- Attained an F1-Score of .75.
-- Generated visualizations using Matplotlib that highlight differences in stock trading behavior between political parties, including variations in trading volume and frequency, as well as trends in the types of stocks traded.
-
-## [Amazon Video Games User Activity Analysis](https://github.com/jimmybentley/Amazon_Game_Reviews)
-- Normalized and stored 350 MB of review data into a relational database model, enabling optimized querying and analysis using indexes.
-- Conducted exploratory data analysis on Amazon Video Games user activity data, identifying key business metrics and trends using Python and SQL.
-- Visualized business metric data using Seaborn, providing actionable insights and driving informed business decisions based on user activity trends
-
 ## [Predicting Ratings of Reviews using Temporal and Sentiment Analysis](https://github.com/JimmyBentley/Prediction-Ratings/blob/main/Ratings_Predictions.pdf)
 - Developed a predictive model for rating reviews using Temporal and Sentiment Analysis on Google Local Reviews dataset, with a focus on spam detection
 - Extracted time features and conducted sentiment analysis through bag-of-words and TFIDF representations.
