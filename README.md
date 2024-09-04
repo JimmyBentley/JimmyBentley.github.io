@@ -48,11 +48,6 @@ retaining image quality.
 - Demonstrated improvement in review quality by identifying discrepancies between text and ratings.
 - Highlighted the importance of predicting ratings from review text for spam detection and enhancing user trust in reviews.
 
-## [Quadratic Discriminant Analysis](https://github.com/JimmyBentley/Predictive-ML-with-QDA/blob/main/QDA.ipynb)
-- Used probabilistic learning to make predictions on completely unlabeled dataset for class competition.
-- Tested on validation set for high sampling distribution accuracy to ensure high accuracy on test set.
-- Achieved top 10% of class for highest accuracy.
-
 ## [Dimensionality Reduction Techniques](https://github.com/JimmyBentley/Dimensionality-Reduction-Techniques)
 - Representing high dimensional data with dimensionality techniques, with Principal Component Analysis (PCA) for linear data and Laplacian Eigenmaps for non-linear data.
 - PCA performed on faces dataset which takes a top eigenvector as a detector of eyeglasses.
