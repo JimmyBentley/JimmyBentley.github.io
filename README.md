@@ -1,6 +1,5 @@
 # James's Portfolio
-Hi! 👋 I'm James Bentley, a Data Science student at the University of California San Diego with strong interests in Data Science & Machine Learning.
-Here are some projects I've completed so far!
+Hi! 👋 I'm James, a Computer Science student at Georgia Tech with strong interest in large-scale machine learning infrastructure. Here are some projects I've completed so far! I'm always looking for new opportunies, feel free to reach out to me.
 
 ## Graph Batching Method for Integrated Circuits
 
@@ -22,9 +21,11 @@ continuity and preserved perspective.
 retaining image quality.
 
 ## [Large-Scale Data Analysis of Amazon Datasets](https://github.com/jimmybentley/Large-Scale-Amazon-Analysis/tree/main)
+
 ### AWS EC2
 - Developed distributed computing infrastructure using Dask and AWS EC2, enabling parallel processing of Amazon reviews and products data across multinode cluster.
 - Achieved 4x compute speedup and 4x costs saved using distributed computing techniques to optimize data processing and validation algorithms to handle 45 GB of data.
+  
 ### Apache Spark
 - Developed batch processing pipeline using Apache Spark PySQL on Kubernetes cluster.
 - Trained decision tree regression model using word embedding with Word2Vec to extract meaningful features from text data and improve recommendation systems.
