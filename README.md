@@ -9,6 +9,15 @@ Chips consist of hundreds of millions of logic gates and transistors. Although t
 
 ![image](VLSI_poster.png)
 
+## File Transfer and Sync Tools | Operating Systems, C, C++
+### File Transfer Proxy-Cache Server with Shared Memory
+- Developed multi-threaded file transfer utilities using shared memory inter-process communication (IPC) for scalable
+data transfer.
+- Created cache server to interact with proxy by shared memory, allowing for concurrent access from multiple proxy servers.
+### Andrew File System (a.k.a. Google Drive)
+- Integrated gRPC for remote procedure calls to enable seamless file synchronization across distributed file system.
+- Live file and directory modification updates between multiple connected clients of shared directory.
+
 ## 3D Reconstruction from Images
 - Estimated surface depth map from external light sources with photometric stereo, applying horn integration
 technique to accurately predict meshes of human faces.
@@ -20,8 +29,7 @@ continuity and preserved perspective.
 - Developed JPEG image compression algorithm with local and global compression, reducing file size by 90% while
 retaining image quality.
 
-## [Large-Scale Data Analysis of Amazon Datasets](https://github.com/jimmybentley/Large-Scale-Amazon-Analysis/tree/main)
-
+## Large-Scale Data Analysis of Amazon Datasets
 ### AWS EC2
 - Developed distributed computing infrastructure using Dask and AWS EC2, enabling parallel processing of Amazon reviews and products data across multinode cluster.
 - Achieved 4x compute speedup and 4x costs saved using distributed computing techniques to optimize data processing and validation algorithms to handle 45 GB of data.
@@ -36,11 +44,6 @@ retaining image quality.
 - Implemented preprocessing techniques such as word tokenization, preserving relevant punctuation and syllable counts.
 - Improved model by utilizing word embedding and incorporating syllable count as a feature. Lowered perplexity score and lowered loss in half with word embedding compared to character embedding.
 - Generated sonnets resembling Shakespearean style and structure across different temperature settings.
-
-## [Spotify Music Live Data Streaming](https://github.com/jimmybentley/Data-Engineering-Project)
-- Enabled real-time cloud data streaming of music listening history for efficient data transfer and processing.
-- Set up API integration for secure login with OAuth 2.0 protocols to protect sensitive API information with FastAPI.
-- Ensured data consistency and reliability for Kafka producer consumer pipeline with error handling and message flushing, storing sent data in secure S3 bucket.
 
 ## [Predicting Ratings of Reviews using Temporal and Sentiment Analysis](https://github.com/JimmyBentley/Prediction-Ratings/blob/main/Ratings_Predictions.pdf)
 - Developed a predictive model for rating reviews using Temporal and Sentiment Analysis on Google Local Reviews dataset, with a focus on spam detection
