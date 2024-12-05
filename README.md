@@ -9,13 +9,13 @@ Chips consist of hundreds of millions of logic gates and transistors. Although t
 
 ![image](VLSI_poster.png)
 
-## File Transfer and Sync Tools | Operating Systems, C, C++
+## File Transfer and Sync Tools
 ### File Transfer Proxy-Cache Server with Shared Memory
-- Developed multi-threaded file transfer utilities using shared memory inter-process communication (IPC) for scalable
+- Developed multi-threaded file transfer utilities in C using shared memory inter-process communication (IPC) for scalable
 data transfer.
 - Created cache server to interact with proxy by shared memory, allowing for concurrent access from multiple proxy servers.
-### Andrew File System (a.k.a. Google Drive)
-- Integrated gRPC for remote procedure calls to enable seamless file synchronization across distributed file system.
+### Andrew File System (a.k.a. LAN Google Drive)
+- Integrated gRPC for remote procedure calls in C++ to enable seamless file synchronization across distributed file system.
 - Live file and directory modification updates between multiple connected clients of shared directory.
 
 ## 3D Reconstruction from Images
